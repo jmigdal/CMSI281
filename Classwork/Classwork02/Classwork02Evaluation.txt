@@ -1,0 +1,35 @@
+
+Classwork02 Evaluation
+======================
+
+Nice job on this assignment, with a couple of comments:
+
+I don't think this actually works.  You have the operations in the
+SourceFile.java and TargetFile.java in main() methods in those files.
+While this works for standalone, it doesn't actuall work for using
+those classes in a package.  You need to have a method, or use the
+constructor, to get the operations to happen from the MyFileCopier
+class.
+
+scores:
+=============================
+MyFileCopier.java
+   prompts user for filename  [1 pt]
+   calls Source constructor   [1 pt]
+   calls getter method        [1 pt]
+   calls Target constructor   [1 pt]
+Source.java
+   reads file completely      [1 pt]     0.5
+   has getter or returning    [1 pt]
+Target.java
+   writes file completely     [1 pt]     0.5
+file hdrs (3)                 [3 pt]
+no tabs                       [1 pt]
+indenting consistent          [1 pt]
+descriptive variable names    [1 pt]
+
+total possible points         13 points
+
+
+you got 12 out of 13 which is 92.31% which is an A-minus
+
