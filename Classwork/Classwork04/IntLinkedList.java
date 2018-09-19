@@ -1,26 +1,42 @@
+ /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *  File name     :  IntLinkedList.java
+ *  Purpose       :  Creates and organizes a linked list
+ *  Author        :  James Migdal
+ *  Date          :  2018-09-19
+ *  Description   :  See purpose
+ *  Notes         :  None
+ *  Warnings      :  None
+ *  Exceptions    :  None
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *  Revision Histor
+ *  ---------------
+ *            Rev      Date     Modified by:  Reason for change/modification
+ *           -----  ----------  ------------  -----------------------------------------------------------
+ *  @version 1.0.0  2018-09-19  James Migdal  Initial writing and release
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+ 
  public class IntLinkedList {
 
       private Node head;
       private int  size;
 
-     // the constructor
       IntLinkedList() {
          head = null;
          size = 0;
       }
 
-      public int getSize() {
+      public int getSize() {                                //returns the size of the list
          return size;
       }
 
-      public void prepend( int dataToAdd ) {
+      public void prepend( int dataToAdd ) {                //adds data to the beginning of the list
          Node currentHead = head;
          head = new Node( dataToAdd );
          head.next = currentHead;
          size++;
       }
       
-      public void insertAt( int dataToAdd, int index ) {
+      public void insertAt( int dataToAdd, int index ) {    //inserts data at a given index of the list
          Iterator myIt = getIteratorAt( index );
          Node insertNode = new Node( dataToAdd );
          insertNode.next = myIt.currentNode.next;
@@ -28,7 +44,7 @@
          size++;
       }
       
-      public void removeAt( int index ) {
+      public void removeAt( int index ) {                   //removes the data at a given index of the list
          Iterator firstIt = getIteratorAt( index - 1 );
          Iterator seconIt = getIteratorAt( index + 1 );
          firstIt.currentNode.next = seconIt.currentNode;
@@ -37,10 +53,9 @@
 
       private class Node {
 
-         int data;            // remember this is an IntLinkedList
-         Node next;           // here's the self-referential part
+         int data;           
+         Node next;           
 
-         // constructor
          Node( int d ) {
             data = d;
             next = null;
@@ -66,7 +81,7 @@
             currentNode = head;
          }
 
-         public void next() {
+         public void next() {                               //moves iterator to the next node in the iterator
             if( currentNode == null ) {
                return;
             } else {
@@ -74,11 +89,11 @@
             }
          }
 
-         public boolean hasNext() {
+         public boolean hasNext() {                         //returns true if there is another node in the iterator
             return ((currentNode != null) && (currentNode.next != null));
          }
 
-         public int getCurrentInt() {
+         public int getCurrentInt() {                       //returns data from current node of the iterator
             return currentNode.data;
          }
 
