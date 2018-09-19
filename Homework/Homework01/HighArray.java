@@ -1,5 +1,5 @@
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- *  File name     :  IntList.java
+ *  File name     :  HighArray.java
  *  Purpose       :  Creates an array of longs with options to organize
  *  Author        :  James Migdal
  *  Date          :  2018-09-12

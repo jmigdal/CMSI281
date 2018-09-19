@@ -1,8 +1,8 @@
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- *  File name     :  IntList.java
+ *  File name     :  HighArrayApp.java
  *  Purpose       :  Tests the HighArray.java program
  *  Author        :  James Migdal
- *  Date          :  2018-09-19
+ *  Date          :  2018-09-12
  *  Description   :  See purpose
  *  Notes         :  None
  *  Warnings      :  None
