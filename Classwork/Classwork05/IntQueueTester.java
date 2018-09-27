@@ -40,7 +40,7 @@ public class IntQueueTester {
       myQueue.dequeue();                        //Exception
       
       IntQueue newQueue = new IntQueue();
-      System.out.println( newQueue.peek() );     //Exception
+      System.out.println( newQueue.peek() );    //Exception
    }
    
 }
