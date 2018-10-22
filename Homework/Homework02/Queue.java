@@ -2,7 +2,7 @@
  *  File name     :  Queue.java
  *  Purpose       :  Creates the Queue data structure.
  *  Author        :  Kathryn Cole, James Migdal
- *  Date          :  2018-09-12
+ *  Date          :  2018-10-15
  *  Description   :  See purpose
  *  Notes         :  None
  *  Warnings      :  None
