@@ -1,0 +1,56 @@
+
+Homework03 Evaluation
+======================
+
+Nice work on this assignment!
+Here are a couple of observations and comments:
+
+Great job overall!  Try to write more into your test code, so
+that you are testing things like negative values or lists that
+are already sorted in reverse order.  You DID cover a sorted
+list by re-using the sorted list from your first test and adding
+more values on to it.  Good check on a single element list, and
+a two-element list.
+
+Good job on the Simon game.  It works fine, but was supposed to
+ask the user if they want to play again, and if they say "yes",
+reset and start over.  Also, the game should NOT have a new set
+of letters for each round, but should just add one letter on to
+the existing set each time until the user screws up.
+
+
+scores:
+=============================
+XXXXX-Sorter.java
+   oddEvenSort implemented                   [1 pt.]
+   compiles                                  [1 pt.]
+   works as advertised                       [1 pt.]
+
+SimonGame.java
+   randomized array                          [1 pt.]
+   display/erase sequences                   [1 pt.]
+   check user's guess against array          [1 pt.]
+   increment letter count each iteration     [1 pt.]
+   play again message on incorrect entry     [0.5 pt.]
+   compiles                                  [1 pt.]
+   works as advertised                       [1 pt.]
+
+HuffmanCoding.java
+   count character occurrences               [0 pt.]
+   use some sort of queue to build tree      [0 pt.]
+   tree constructed correctly                [0 pt.]
+   message encoded correctly                 [0 pt.]
+   message decoded correctly                 [0 pt.]
+   compiles                                  [0 pt.]
+   works as advertised                       [0 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [1 pt.]
+
+Total credit is 13 for Sorter and either Simon or Huffman
+ extra credit is 7 points for other of Simon or Huffman
+-------------------------
+ Grand total is 20 points for all three
+
+you got 12.5 out of 13 which is 96.15% which is an A.
