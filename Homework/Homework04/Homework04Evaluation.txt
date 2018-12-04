@@ -1,0 +1,75 @@
+
+Homework04 Evaluation
+======================
+
+Nice job on this assignment...
+Here are a couple of observations and comments:
+
+Your code looks great and thanks for doing headers!
+
+These were from Jame's repo.
+
+There are still some problems.
+
+When I compile BinaryTree.java I get 19 compile errors, which
+seem to be due to some confusion between Node and BinaryNode
+classes.
+
+Also, when I compile PriorityQ.java, it is looking for a Heap
+class which isn't in your repo.  So I can't really do those
+two programs.  You wrote code for them, though, so I'll give
+you 1/2 credit on them both.
+
+One thing to think about going forward:  WRITE MORE TESTS!
+You can never do too much testing, as I've said.  Think about
+it: you'd NEVER release an electronics board you've designed
+without testing it thoroughly, right?  Or send a paper out for
+publication with a mathematical algorithm you've developed
+without making sure it works properly in all situations?  It
+just makes good sense to verify that it all works, and that
+it ALWAYS works....
+
+..... just sayin'......
+  
+
+scores:
+=============================
+Tree Traverser
+   inOrderTraverser method implemented       [1 pt.]
+   2 test sets with at least minimal nodes   [1 pt.]
+   produces proper sequences                 [1 pt.]
+
+Priority Queue
+   Queue creation works correctly            [0.5 pt.]
+   insertion works correctly                 [0.5 pt.]
+   isFull() works correctly                  [0.5 pt.]
+   isEmpty() works correctly                 [0.5 pt.]
+   removal() works correctly                 [0.5 pt.]
+   heap representation works correctly       [0.5 pt.]
+
+Linear Probing String Hasher
+   menu works                                [1 pt.]
+   shows contents                            [1 pt.]
+   hash table created correctly              [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Digit Folding Hasher
+   menu works                                [1 pt.]
+   shows contents                            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [4 pt.]
+
+Total credit is 30 points
+-------------------------
+
+you got 25 out of 30 which is 83.33% which is a B.
+
